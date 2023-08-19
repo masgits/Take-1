@@ -1,13 +1,5 @@
 :root {
   --color-primary: #000000;
-  --color-secondary: #ffcb03;
-  --color-tertiary: #ff585f;
-  --color-primary-darker: #4bbb7d;
-  --color-secondary-darker: #ffbb00;
-  --color-tertiary-darker: #fd424b;
-  --color-primary-opacity: #5ec5763a;
-  --color-secondary-opacity: #ffcd0331;
-  --color-tertiary-opacity: #ff58602d;
   --gradient-primary: linear-gradient(to top left, #008080, #808080);
   --gradient-secondary: linear-gradient(to top left, #ffb003, #ffcb03);
 }
@@ -101,7 +93,6 @@ p {
   font-size: 2.6rem;
 }
 
-/* This is BAD for accessibility! Don't do in the real world! */
 button:focus {
   outline: none;
 }
@@ -366,9 +357,6 @@ h5 {
   margin-right: 1.75rem;
   cursor: pointer;
   transition: all 0.5s;
-
-  /* Only necessary when overlying images  */
-  /* box-shadow: 0 0.6rem 1.5rem rgba(0, 0, 0, 0.7);*/
 }
 
 .dots_dot:last-child {
